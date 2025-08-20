@@ -1,22 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 
 *{
-    margin: 0;
+    margin: 10;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Sofia-sans", sans-serif;
-}
-
-.background{
-    background-size: cover;
-    min-height: 100%;
-    min-width: 640px;
-    width: auto;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    font-family: "Oswald", sans-serif;
 }
 
 header{
@@ -28,19 +17,126 @@ header{
     justify-content: space-between;
 }
 
+.background{
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 nav{
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
+nav a{
+    font-size: 20px;
+}
+
+button{
+    background: linear-gradient(to right, darkgreen, brown);
+    color: yellow;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
 .logo{
     margin: 0 auto;
     padding: 0;
-
+    transition: transform 0.2s;
 }
 
+.logo:hover{
+    transform: scale(1.2);
+}
+    
 a{
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
 
+a:link, a:visited{
+    color: blue;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.project{
+    text-align: justify;
+}
+
+.project_manager{
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-body{
+    max-width: 1160px;
+}
+
+.footer-body h3{
+    color: darkgreen;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-body-links{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-body-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.footer-social-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0px;
+    position: relative;
+    object-fit: cover;
+    height: 100px;    
+}
+
+.footer-policy{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top: 3px solid white;
+}
+
+.footer-policy a{
+    color: white;
+    font-weight: 10;
+}
+
+.rights{
+    opacity: 0.8;
+    font-size: large;
+}
+
+@media screen and (max-width:992px {
+    
 }
