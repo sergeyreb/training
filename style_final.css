@@ -91,7 +91,7 @@ p{
 }
 
 .footer-body h3{
-    color: darkgreen;
+    color: white;
     font-size: 48px;
     text-align: center;
     text-transform: uppercase;
@@ -99,7 +99,7 @@ p{
 
 .footer-body-links{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .footer-body-links ul{
@@ -134,9 +134,6 @@ p{
 
 .rights{
     opacity: 0.8;
-    font-size: large;
+    font-size: medium;
 }
 
-@media screen and (max-width:992px {
-    
-}
