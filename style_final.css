@@ -137,3 +137,40 @@ p{
     font-size: medium;
 }
 
+@media screen and (max-width: 992px){
+    header{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        display: block;
+    }
+    
+    .project{
+        width: max(70%, 300px);
+    }
+}
+
+@media screen and (max-width: 550px){
+    .footer-body-links, .footer-social-links, .footer-policy, .rights{
+        display: none;
+    }
+    .footer-body h3{
+        font-size: 32px;
+    }    
+}
+
+@media screen and (max-width: 450px){
+    header{
+        padding: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+        margin: 14px 0px;
+    }
+}
