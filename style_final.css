@@ -163,7 +163,7 @@ p{
 }
 
 @media screen and (max-width: 550px){
-    .footer-body-links, .footer-policy, .rights{
+    .footer-body-links, .footer-social-links, .footer-policy, .rights{
         display: none;
     }
     .footer-body h3{
